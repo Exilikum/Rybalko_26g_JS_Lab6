@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="variant-4">
+        <h1>Сервіс для завантаження даних з ресурсу JSON Placeholder</h1>
+        <input type="text" id="url-input" placeholder="Enter URL" class="url-input" value="https://jsonplaceholder.typicode.com/users">
+        <div class="buttons">
+            <button id="load-data" class="load-data">Завантажити дані</button>
+            <button id="clear" class="clear" disabled>Очистити</button>
+        </div>
+        <div id="status-message"></div>
+        <div id="display-options" class="display-buttons"></div>
+        <div id="table-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+/* VARIANT\ - 4 */
+.variant-4 {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+    padding: 50px;
+}
+
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.url-input {
+    width: 545px;
+    height: 60px;
+    background: #F4F4F4;
+    border: 1px solid #939393;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #939393;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    box-sizing: border-box;
+    width: 260px;
+    height: 60px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.load-data {
+    background: lightgreen;
+    color: #000000;
+}
+
+.load-data:disabled {
+    background: #399F30;
+    color: #B9B9B9;
+}
+
+.clear {
+    background: #9F3080;
+    color: #FFFFFF;
+}
+
+.clear:disabled {
+    background: lightgrey;
+    color: #FFFFFF;
+}
+
+.display-buttons .yes {
+    background: #99E692;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    cursor: pointer;
+}
+
+.display-buttons .no {
+    background: #E10C26;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000;
+}
+
+th, td {
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.clear-sorting {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #E10C26;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+thead th {
+    background: #A20F8A;
+    color: #FFFFFF;
+}
+
+thead th.sort-active {
+    background: lightpink;
+}
+
+tbody tr:nth-child(even) {
+    background: #EBC5F2;
+}
+
+tbody tr:nth-child(odd) {
+    background: #DA9EEF;
+}
